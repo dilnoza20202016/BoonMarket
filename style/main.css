@@ -74,10 +74,12 @@ body {
 .menu__btn::before {
   top: 0;
   left: 0;
+  transition: 0.5s;
 }
 .menu__btn::after {
   left: 0;
   bottom: 0;
+  transition: 0.5s;
 }
 
 .header__nav {
@@ -188,8 +190,6 @@ body {
   display: flex;
   gap: 15px;
   align-items: center;
-}
-.yulduzcha {
 }
 
 .header__img {

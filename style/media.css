@@ -32,6 +32,7 @@
   }
   .menu__btn{
     display: block;
+   
   }
 
   .header__link {
@@ -43,4 +44,14 @@
     
   }
 
+}
+.menu__btn:focus span{
+  opacity: 0;
+  
+}
+.menu__btn:focus:before{
+  transform: translateY(11.5px) rotate(45deg);
+}
+.menu__btn:focus:after{
+  transform: translateY(-11.5px) rotate(-45deg);
 }
